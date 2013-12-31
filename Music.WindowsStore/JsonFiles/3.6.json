@@ -1,14 +1,12 @@
 ﻿{
 	"SubTitle" : "Tome un descanso",
-	"Information" : "Some say music is just a series of notes, and they're half correct. Music is series of notes and the spaces between them. Those spaces 
-	                 are called rests, and even in silence, they can really add motion and life to music. Let's take a look at how they're notated.",
+	"Information" : "Some say music is just a series of notes, and they're half correct. Music is series of notes and the spaces between them. Those spaces are called rests, and even in silence, they can really add motion and life to music. Let's take a look at how they're notated.",
 	"NextLessonFile" : "4.1.json",
 	"PreviousLessonFile" : "3.5.json",
 	"Descriptions" : [
 		{
 			"Title" : "",
-			"Information" : "Like notes, they have specific symbols for specific durations. A whole note rest is a rectangle descending from the 4th line, and a half note rest is a rectangle resting on the 3rd line. The quarter note rest is a squiggly line, and the 
-			                 rest of the rests are an angled bar with the same number of flags as their equivalent note value. These flags always sweep to the left."
+			"Information" : "Like notes, they have specific symbols for specific durations. A whole note rest is a rectangle descending from the 4th line, and a half note rest is a rectangle resting on the 3rd line. The quarter note rest is a squiggly line, and the rest of the rests are an angled bar with the same number of flags as their equivalent note value. These flags always sweep to the left."
 		}
 	]
 }
