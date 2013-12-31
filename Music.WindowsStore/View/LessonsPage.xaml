@@ -1,0 +1,96 @@
+﻿<Page
+    x:Class="Music.WindowsStore.View.LessonsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Music.WindowsStore.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <CollectionViewSource x:Name="MethodsCollection" IsSourceGrouped="True" ItemsPath="Lessons" />
+        <!--Lesson Template-->
+        <DataTemplate x:Key="LessonTemplate">
+            <Border HorizontalAlignment="Left" Width="450" Margin="10">
+                <TextBlock Text="{Binding SubTitle}" Style="{StaticResource LessonItemTemplate}" />
+            </Border>
+        </DataTemplate>
+        <!--Method Template-->
+        <DataTemplate x:Key="MethodTemplate">
+            <Grid Width="400" Height="200" HorizontalAlignment="Left">
+                <Border Background="White" BorderBrush="#FF007ACC" BorderThickness="5">
+                    <Image Stretch="Uniform" Source="{Binding Group.Image}" />
+                    <!--<TextBlock Text="{Binding Group.Number}" FontSize="60" Foreground="Black" />-->
+                </Border>
+                <StackPanel VerticalAlignment="Bottom" Background="#FF007ACC" Opacity="0.9">
+                    <TextBlock Text="{Binding Group.Title}" Style="{StaticResource MethodDescriptionStyle}" />
+                </StackPanel>
+            </Grid>
+        </DataTemplate>
+        <!--Lessons Panel Template-->
+        <ItemsPanelTemplate x:Key="LessonsPanel">
+            <StackPanel Orientation="Horizontal" />
+            <!--<ItemsWrapGrid MaximumRowsOrColumns="3" />-->
+            <!--<WrapGrid Orientation="Vertical" />-->
+        </ItemsPanelTemplate>
+        <!--Methods Panel Template-->
+        <ItemsPanelTemplate x:Key="MethodsPanel">
+            <!--<StackPanel Orientation="Horizontal" />-->
+            <WrapGrid Orientation="Horizontal" />
+        </ItemsPanelTemplate>
+    </Page.Resources>
+    
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" RequestedTheme="Light">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="5*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        
+        <Border Grid.ColumnSpan="2" Background="#FF3399FF" />
+        <ProgressRing x:Name="progress" Foreground="#FF3399FF" Grid.Row="1" Grid.ColumnSpan="2" Width="150"  Height="150" />
+        <Button VerticalAlignment="Center" HorizontalAlignment="Center" 
+                Style="{StaticResource NavigationBackButtonNormalStyle}" 
+                Click="Button_Click"/>
+        <TextBlock Style="{StaticResource HeaderStyle}" Text="Lecciones" Grid.Column="1" />
+        <SemanticZoom Grid.Row="1" Grid.ColumnSpan="2" IsZoomedInViewActive="False" Margin="40">
+            <!--Zoom Out-->
+            <SemanticZoom.ZoomedOutView>
+                <GridView x:Name="ZoomOutGridView"
+                    ItemTemplate="{StaticResource MethodTemplate}"
+                    ScrollViewer.IsHorizontalScrollChainingEnabled="False"
+                    SelectionMode="None"
+                    ItemsPanel="{StaticResource MethodsPanel}">
+                </GridView>
+            </SemanticZoom.ZoomedOutView>
+            <!--Zoom In-->
+            <SemanticZoom.ZoomedInView>
+                <GridView x:Name="LessonsList"
+                    SelectionMode="Extended"
+                    IsZoomedInView="False" IsSwipeEnabled="True"
+                    ItemTemplate="{StaticResource LessonTemplate}"
+                    ItemsPanel="{StaticResource LessonsPanel}"
+                    SelectionChanged="LessonSelected"
+                    ItemsSource="{Binding Source={StaticResource MethodsCollection}}"
+                    ScrollViewer.IsHorizontalScrollChainingEnabled="False" >
+                    <GridView.GroupStyle>
+                        <GroupStyle>
+                            <GroupStyle.HeaderTemplate>
+                                <DataTemplate>
+                                    <Grid Width="500" Margin="10">
+                                        <Grid.Background>
+                                            <SolidColorBrush Color="#FF007ACC" />
+                                        </Grid.Background>
+                                        <TextBlock Text="{Binding Title}" Style="{StaticResource LessonHeaderStyle}" />
+                                    </Grid>
+                                </DataTemplate>
+                            </GroupStyle.HeaderTemplate>
+                        </GroupStyle>
+                    </GridView.GroupStyle>
+                </GridView>
+            </SemanticZoom.ZoomedInView>
+        </SemanticZoom>
+    </Grid>
+</Page>
