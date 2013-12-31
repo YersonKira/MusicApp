@@ -1,12 +1,12 @@
 ﻿{
-	"SubTitle" : "Obtenga el control real del Pentagrama",
-	"Information" : "",
+	"SubTitle" : "Obtener un identificador real sobre el pentagrama",
+	"Information" : "Antes de que usted sea capaz de aprender música, tienes entender la información básica que prácticamente todos los que leen música necesitan saber: \"El Pentagrama\". Es el más básico de todos los símbolos musicales y fundamento para todo lo que se va a seguir",
 	"NextLessonFile" : "1.2.json",
 	"PreviousLessonFile" : "",
 	"Descriptions" : [
 		{
 			"Title" : "",
-			"Information" : ""
+			"Information" : "El Pentagrama es un arreglo de cinco líneas paralelas y los espacios entre ellas. Tanto las líneas y los espacios están numerados para fines de referencia y se cuentan siempre de abajo hacia arriba."
 		}
 	]
 }

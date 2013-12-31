@@ -1,12 +1,21 @@
 ﻿{
-	"SubTitle" : "Comience con la Clave de sol",
-	"Information" : "",
+	"SubTitle" : "Comenzar con la clave de sol",
+	"Information" : "Una de las primeras cosas que encontrarás al leer música es la \"clave\". Este signo es la leyenda que dice aproximadamente el alcance que tendra su instrumento. Todos los instrumentos y voces en las gamas más altas utilizan la clave de sol como su base, y para esta introducción a la lectura de la música, nos centraremos principalmente en esta clave para nuestros ejemplos.",
 	"NextLessonFile" : "1.3.json",
 	"PreviousLessonFile" : "1.1.json",
 	"Descriptions" : [
 		{
 			"Title" : "",
-			"Information" : ""
+			"Information" : "Los agudos, o clave de sol, se deriva de una letra latina ornamental G. Cuando se añaden notas al pentagrama en clave de sol, tendrán los siguientes valores:"
+		},{
+			"Title" : "",
+			"Information" : "Las cinco líneas, desde abajo hacia arriba, representan las siguientes notas: E G B D F"
+		},{
+			"Title" : "",
+			"Information" : "Los cuatro espacios, desde abajo hacia arriba, representan estas notas: F A C E"
+		},{
+			"Title" : "",
+			"Information" : "Puede parecer mucho para recordar, pero si usas mnemónicos — o señales de la palabra — que puede ayudarle a recordarlos. Para las líneas, \"Every Good Boy Does Fine\" es el estándar, y para los espacios, pues saben escribir \"FACE\" (cara en ingles). Debería ser bastante fácil!"
 		}
 	]
 }
