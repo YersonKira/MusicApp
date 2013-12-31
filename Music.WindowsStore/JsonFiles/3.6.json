@@ -6,7 +6,7 @@
 	"Descriptions" : [
 		{
 			"Title" : "",
-			"Information" : "Like notes, they have specific symbols for specific durations. A whole note rest is a rectangle descending from the 4th line, and a half note rest is a rectangle resting on the 3rd line. The quarter note rest is a squiggly line, and the rest of the rests are an angled bar with the same number of flags as their equivalent note value. These flags always sweep to the left."
+			"Information" : "Como las notas, ellos también tienen símbolos para duraciones específicas. Una pausa completa es un rectángulo descendiente desde la cuarta línea, y media pausa es un rectángulo descansando en la tercera línea. La cuarta pausa es una línea serpenteante, y el resto de las pausas son una barra en ángulo con el mismo número de notaciones como el valor de la nota equivalente. Estas indicaciones siempre aparecen a la izquierda."
 		}
 	]
 }
