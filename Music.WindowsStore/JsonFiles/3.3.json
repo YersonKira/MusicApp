@@ -1,17 +1,15 @@
 ﻿{
-	"SubTitle" : "Capta el ritmo",
-	"Information" : "",
+	"SubTitle" : "Acelerar el paso",
+	"Information" : "Basta de esta desaceleración. Observa que mientras disminuimos las notas, empezamos quitando pedacitos de la nota. Primero quitamos la nota sólida, luego quitamos la plica. Ahora echemos un vistazo a las cosas por exceso de velocidad para arriba. Para ello, vamos a añadir cosas a la nota.",
 	"NextLessonFile" : "3.4.json",
 	"PreviousLessonFile" : "3.2.json",
 	"Descriptions" : [
 		{
 			"Title" : "",
-			"Information" : ""
+			"Information" : "Volver a nuestro ritmo como imagen de caminante en tu mente (golpeando ligeramente el pie al ritmo puede ayudar). Ahora imagine que el autobús acaba de llegar a la parada, y estás a una manzana. ¿que haces? ¡Corre! Y mientras corres, intentas alcanzar al autobús."
 		},{
 			"Title" : "",
-			"Information" : ""
-		},{
-			
+			"Information" : "Para hacer notas más rápidos en la música, le añadimos una corchete. Cada corchete reduce el valor de tiempo de la nota a la mitad. Por ejemplo, una corchea es 1/2 el valor de una negra. En cuanto a caminar, vamos desde caminar (negra), a correr (corchea) — dos veces mas rápido que caminar, a correr aun mas rápido (semi-corchea) — dos veces mas rápido que simplemente correr."
 		}
 	]
 }

@@ -1,12 +1,18 @@
 ﻿{
-	"SubTitle" : "Imagínese caminando",
-	"Information" : "",
+	"SubTitle" : "Imaginate caminando",
+	"Information" : "Cada paso será igual a un ritmo. Ésos se representan musicalmente por negras, porque en gran parte de la música occidental, hay cuatro de estos ritmos para cada medida. Musicalmente, el ritmo de su caminar se verá así: ",
 	"NextLessonFile" : "3.3.json",
 	"PreviousLessonFile" : "3.1.json",
 	"Descriptions" : [
 		{
 			"Title" : "",
-			"Information" : ""
+			"Information" : "Cada paso es un nota negra. Puedes contar al caminar: \"1, 2, 3, 4-1, 2, 3, 4\""
+		},{
+			"Title" : "",
+			"Information" : "Si fueras a desacelerar su ritmo a la mitad de la velocidad, así que sólo tomarian un paso cada dos golpes sobre el 1 y el 3."
+		},{
+			"Title" : "",
+			"Information" : "Si usted a ralentizado su ritmo aún más, así que sólo tomaron un paso cada cuatro golpes, en el 1, que escribiría como una nota entera — o una nota por la medida."
 		}
 	]
 }

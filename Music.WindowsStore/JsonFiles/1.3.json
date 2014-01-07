@@ -1,12 +1,18 @@
 ﻿{
-	"SubTitle" : "Comprenda la Clave de Fa",
-	"Information" : "",
+	"SubTitle" : "Entender la Clave de Fa",
+	"Information" : "La clave de FA, también conocida como la \"clave de F\", se utiliza para instrumentos en los registros más bajos, incluyendo la mano izquierda del piano, contrabajo, trombones, etc.. ",
 	"NextLessonFile" : "1.4.json",
 	"PreviousLessonFile" : "1.2.json",
 	"Descriptions" : [
 		{
 			"Title" : "",
-			"Information" : ""
+			"Information" : "El nombre \"clave de F\" deriva de sus origenes como letra gotica F y los dos puntos se ubican por encima y debajo de la nota Fa en el pentagrama. El pentagrama con clave de Fa representa diferentes notas a la clave de sol."
+		},{
+			"Title" : "",
+			"Information" : "Las cinco líneas, de abajo hacia arriba, representan estas notas: G B D F"
+		},{
+			"Title" : "",
+			"Information" : "Los cuatro espacios, de abajo hacia arriba, representan estas notas: A C E G"
 		}
 	]
 }

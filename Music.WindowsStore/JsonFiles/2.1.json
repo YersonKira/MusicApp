@@ -1,12 +1,15 @@
 ﻿{
-	"SubTitle" : "Aprender sobre los tiempos",
-	"Information" : "",
+	"SubTitle" : "Aprenda sobre medidas y tiempos",
+	"Information" : "La medida puede ser considerado como el pulso, el latido del corazón de la música. Instintivamente lo sientes cuando escuchas musica.",
 	"NextLessonFile" : "3.1.json",
 	"PreviousLessonFile" : "1.4.json",
 	"Descriptions" : [
 		{
 			"Title" : "",
-			"Information" : ""
+			"Information" : "En notación musical, ritmo es expresado por algo parecido a una fracción. Como cualquier fracción, hay un numerador y un denominador. El numerador, escrito en los parte superiores dos espacios del pentagrama, te dice cuántos latidos en una medida. El denominador indica el valor de la nota que recibe un golpe (un pulso). Se parece a esto:"
+		},{
+			"Title" : "",
+			"Information" : "Cambiando el numerador, cambiamos el número de pulsaciones en una medida. Otro compás muy común es 3/4. Si piensas en un vals y su constante ritmica es 1-2-3-1-2-3, que es de 3/4. Es algo como esto:"
 		}
 	]
 }

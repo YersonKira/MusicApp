@@ -18,8 +18,10 @@
         <DataTemplate x:Key="MethodTemplate">
             <Grid Width="400" Height="200" HorizontalAlignment="Left">
                 <Border Background="White" BorderBrush="#FF007ACC" BorderThickness="5">
-                    <Image Stretch="Uniform" Source="{Binding Group.Image}" />
-                    <!--<TextBlock Text="{Binding Group.Number}" FontSize="60" Foreground="Black" />-->
+                    <Grid>
+                        <Image Stretch="Uniform" Source="{Binding Group.Image}" />
+                        <TextBlock Text="{Binding Group.Number}" FontSize="40" Foreground="Black" />
+                    </Grid>
                 </Border>
                 <StackPanel VerticalAlignment="Bottom" Background="#FF007ACC" Opacity="0.9">
                     <TextBlock Text="{Binding Group.Title}" Style="{StaticResource MethodDescriptionStyle}" />
@@ -35,7 +37,7 @@
         <!--Methods Panel Template-->
         <ItemsPanelTemplate x:Key="MethodsPanel">
             <!--<StackPanel Orientation="Horizontal" />-->
-            <WrapGrid Orientation="Horizontal" />
+            <WrapGrid Orientation="Vertical" />
         </ItemsPanelTemplate>
     </Page.Resources>
     

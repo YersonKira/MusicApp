@@ -1,12 +1,12 @@
 ﻿{
-	"SubTitle" : "Beam me up!",
-	"Information" : "",
+	"SubTitle" : "Teletranspórtame!",
+	"Information" : "Como puedes ver con por ejemplo de arriba, las cosas pueden empezar a volverse dificiles cuando hay un montón de notas así en la página. Tus ojos se empiezan a cruzar, y se pierde la noción de donde estabas. Notas de grupo en paquetes más pequeños que tienen sentido visualmente, utilizamos el \"barrado\".",
 	"NextLessonFile" : "3.5.json",
 	"PreviousLessonFile" : "3.3.json",
 	"Descriptions" : [
 		{
 			"Title" : "",
-			"Information" : ""
+			"Information" : "El barrado simplemente reemplaza los corchetes de las nota con gruesas líneas trazadas entre las plicas de la nota. Estos se agrupan lógicamente, y mientras más compleja sea la música requerira reglas mas complejas, para nuestros propósitos. Comparar el ejemplo a continuación con el ejemplo anterior. Intenta golpear ligeramente hacia fuera el ritmo otra vez y ver cuánto más claro barrado hace la notación:"
 		}
 	]
 }
