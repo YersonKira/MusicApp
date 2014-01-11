@@ -16,39 +16,40 @@
             <ColumnDefinition Width="150" />
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
-        <Border Grid.ColumnSpan="2" Background="#FF3399FF" />
+        <Border Grid.ColumnSpan="2" Background="{StaticResource HeaderColor}" />
         <Button VerticalAlignment="Center" HorizontalAlignment="Center" 
                 Style="{StaticResource NavigationBackButtonNormalStyle}" 
                 Click="Button_Click"/>
-        <TextBlock Style="{StaticResource HeaderStyle}" FontSize="60" Text="{Binding SubTitle}" TextWrapping="Wrap" Grid.Column="1" />
-        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Margin="60, 25">
-            <TextBlock Text="{Binding Information}" Style="{StaticResource ContentStyle}" />
-            <ItemsControl ItemsSource="{Binding Descriptions}">
-                <ItemsControl.ItemsPanel>
-                    <ItemsPanelTemplate>
-                        <StackPanel Orientation="Vertical" />
-                    </ItemsPanelTemplate>
-                </ItemsControl.ItemsPanel>
-                <ItemsControl.ItemTemplate>
-                    <DataTemplate>
-                        <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="10" />
-                                <ColumnDefinition />
-                            </Grid.ColumnDefinitions>
-                            <Ellipse Width="5" Height="5" Fill="White" VerticalAlignment="Top"></Ellipse>
-                            <TextBlock Grid.Column="1" Style="{StaticResource ContentStyle}" >
-                                <Run Text="{Binding Title}" FontWeight="Bold"></Run>
+        <TextBlock Style="{StaticResource HeaderStyle}" FontSize="50" Text="{Binding SubTitle}" TextWrapping="Wrap" Grid.Column="1" />
+        <ScrollViewer Grid.Row="1" Grid.ColumnSpan="2">
+            <StackPanel Margin="60, 25">
+                <TextBlock Text="{Binding Information}" Style="{StaticResource ContentStyle}" />
+                <ItemsControl ItemsSource="{Binding Descriptions}">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel Orientation="Vertical" />
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Margin="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="auto" />
+                                    <RowDefinition Height="auto" />
+                                </Grid.RowDefinitions>
+                                <TextBlock Grid.Column="1" Style="{StaticResource ContentStyle}" >
+                                <Run Text="{Binding Title}" Foreground="{StaticResource AppBarColor}" FontWeight="Bold"></Run>
                                 <Run Text="{Binding Information}" />
-                            </TextBlock>
-                        </Grid>
-                    </DataTemplate>
-                </ItemsControl.ItemTemplate>
-            </ItemsControl>
-        </StackPanel>
+                                </TextBlock>
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
     <Page.BottomAppBar>
-        <AppBar Background="#FF007ACC" IsOpen="True">
+        <AppBar Background="{StaticResource AppBarColor}" IsOpen="True">
             <Grid Margin="10,0">
                 <StackPanel Orientation="Horizontal">
                     <AppBarButton x:Name="previous" Label="Anterior" Icon="Previous" Click="PreviousLesson" />

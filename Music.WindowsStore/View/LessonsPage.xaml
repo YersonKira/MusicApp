@@ -7,6 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <Page.Resources>
+        
         <CollectionViewSource x:Name="MethodsCollection" IsSourceGrouped="True" ItemsPath="Lessons" />
         <!--Lesson Template-->
         <DataTemplate x:Key="LessonTemplate">
@@ -17,13 +18,13 @@
         <!--Method Template-->
         <DataTemplate x:Key="MethodTemplate">
             <Grid Width="400" Height="200" HorizontalAlignment="Left">
-                <Border Background="White" BorderBrush="#FF007ACC" BorderThickness="5">
+                <Border Background="White" BorderBrush="{StaticResource AppBarColor}" BorderThickness="5">
                     <Grid>
                         <Image Stretch="Uniform" Source="{Binding Group.Image}" />
                         <TextBlock Text="{Binding Group.Number}" FontSize="40" Foreground="Black" />
                     </Grid>
                 </Border>
-                <StackPanel VerticalAlignment="Bottom" Background="#FF007ACC" Opacity="0.9">
+                <StackPanel VerticalAlignment="Bottom" Background="{StaticResource HeaderColor}" Opacity="0.9">
                     <TextBlock Text="{Binding Group.Title}" Style="{StaticResource MethodDescriptionStyle}" />
                 </StackPanel>
             </Grid>
@@ -51,8 +52,8 @@
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
         
-        <Border Grid.ColumnSpan="2" Background="#FF3399FF" />
-        <ProgressRing x:Name="progress" Foreground="#FF3399FF" Grid.Row="1" Grid.ColumnSpan="2" Width="150"  Height="150" />
+        <Border Grid.ColumnSpan="2" Background="{StaticResource HeaderColor}" />
+        <ProgressRing x:Name="progress" Foreground="{StaticResource AppBarColor}" Grid.Row="1" Grid.ColumnSpan="2" Width="150"  Height="150" />
         <Button VerticalAlignment="Center" HorizontalAlignment="Center" 
                 Style="{StaticResource NavigationBackButtonNormalStyle}" 
                 Click="Button_Click"/>
@@ -81,10 +82,7 @@
                         <GroupStyle>
                             <GroupStyle.HeaderTemplate>
                                 <DataTemplate>
-                                    <Grid Width="500" Margin="10">
-                                        <Grid.Background>
-                                            <SolidColorBrush Color="#FF007ACC" />
-                                        </Grid.Background>
+                                    <Grid Width="500" Margin="10" Background="{StaticResource AppBarColor}">
                                         <TextBlock Text="{Binding Title}" Style="{StaticResource LessonHeaderStyle}" />
                                     </Grid>
                                 </DataTemplate>

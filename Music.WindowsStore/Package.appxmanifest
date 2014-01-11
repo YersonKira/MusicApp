@@ -1,38 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
-
-  <Identity Name="38cee5a3-e2a1-4d33-9ec9-040c12f685e6"
-            Publisher="CN=Yerson"
-            Version="1.0.0.0" />
-
+  <Identity Name="38cee5a3-e2a1-4d33-9ec9-040c12f685e6" Publisher="CN=Yerson" Version="1.0.0.0" />
   <Properties>
-    <DisplayName>Music.WindowsStore</DisplayName>
-    <PublisherDisplayName>Yerson</PublisherDisplayName>
-    <Logo>Assets\StoreLogo.png</Logo>
+    <DisplayName>Música</DisplayName>
+    <PublisherDisplayName>Windows8.1</PublisherDisplayName>
+    <Logo>Assets\StoreIcon.png</Logo>
   </Properties>
-
   <Prerequisites>
     <OSMinVersion>6.3.0</OSMinVersion>
     <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
   </Prerequisites>
-
   <Resources>
-    <Resource Language="x-generate"/>
+    <Resource Language="x-generate" />
   </Resources>
-
   <Applications>
-    <Application Id="App"
-        Executable="$targetnametoken$.exe"
-        EntryPoint="Music.WindowsStore.App">
-        <m2:VisualElements
-            DisplayName="Music.WindowsStore"
-            Square150x150Logo="Assets\Logo.png"
-            Square30x30Logo="Assets\SmallLogo.png"
-            Description="Music.WindowsStore"
-            ForegroundText="light"
-            BackgroundColor="#464646">
-            <m2:SplashScreen Image="Assets\SplashScreen.png" />
-        </m2:VisualElements>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Music.WindowsStore.App">
+      <m2:VisualElements DisplayName="Música" Square150x150Logo="Assets\Icon.png" Square30x30Logo="Assets\SmallIcon.png" Description="Musica" ForegroundText="dark" BackgroundColor="#ffffff">
+        <m2:DefaultTile ShortName="Musica" DefaultSize="wide310x150Logo" Wide310x150Logo="Assets\WidthIcon.png" Square310x310Logo="Assets\SquareIcon.png">
+          <m2:ShowNameOnTiles>
+            <m2:ShowOn Tile="wide310x150Logo" />
+            <m2:ShowOn Tile="square310x310Logo" />
+          </m2:ShowNameOnTiles>
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="Assets\SplashScreenIcon.png" BackgroundColor="#ffffff" />
+      </m2:VisualElements>
     </Application>
   </Applications>
   <Capabilities>

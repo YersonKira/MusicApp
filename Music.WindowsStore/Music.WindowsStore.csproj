@@ -127,6 +127,12 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="Assets\Icon.scale-180.png" />
+    <Content Include="Assets\SplashScreenIcon.png" />
+    <Content Include="Assets\SmallIcon.png" />
+    <Content Include="Assets\SquareIcon.scale-80.png" />
+    <Content Include="Assets\StoreIcon.scale-180.png" />
+    <Content Include="Assets\WidthIcon.scale-180.png" />
     <Content Include="Images\1.jpg" />
     <Content Include="Images\2.png" />
     <Content Include="Images\3.png" />
@@ -206,12 +212,6 @@
     </Content>
     <None Include="Music.WindowsStore_TemporaryKey.pfx" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assets\Logo.scale-100.png" />
-    <Content Include="Assets\SmallLogo.scale-100.png" />
-    <Content Include="Assets\SplashScreen.scale-100.png" />
-    <Content Include="Assets\StoreLogo.scale-100.png" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
