@@ -1,10 +1,22 @@
 ﻿{
-	"SubTitle" : "Entendiendo las firmas dominantes",
-	"Information" : "",
+	"SubTitle" : "Entendiendo las llaves dominantes",
+	"Information" : "Hasta ahora hemos estado buscando la escala de C mayor: ocho notas, todas las teclas blancas que comienzan en la C. sin embargo, puedes comenzar una escala en cualquier nota. Si solamente tocas todas las teclas blancas, no estarás tocando una escala mayor, pero si algo llamado “escala modal”. La cual está fuera del alcance de este artículo.",
 	"NextLessonFile" : "6.1.json",
 	"PreviousLessonFile" : "5.2.json",
 	"Descriptions" : [
 		{
+			"Title" : "",
+			"Information" : "-	La nota de partida, o tónica, es también el nombre de la tecla. Puede que hayas escuchado a alguien decir “es la tecla de C” que significa que la escala básica comienza en C, e incluye las notas C D E F G A B C. las notas en una escala mayor tienen una muy específica relación la una con la otra. Échale un vistazo a este teclado:"
+		},{
+
+			"Title" : "",
+			"Information" : "-	Ten en cuenta que en la mayoría de las notas, hay todo un paso. Pero hay solamente un medio paso (semitono) entre E y F, y entre B y C. cada escala mayor tiene esta misma relación: todo-todo-media-todo-todo-todo-media. Si comienzas tu escala en G, por ejemplo, podría escribirse de esta forma:"
+		},{
+
+			"Title" : "",
+			"Information" : "-	Toma en cuenta que la F# cerca de la parte superior. A fin de mantener la relación adecuada, la F tiene que ser elevada un semitono por lo que es un medio paso desde la G, no un paso completo. Eso es bastante fácil como para leerlo, pero que si empiezas de una escala mayor en C#? Se vería de esta forma:"
+		},{
+
 			"Title" : "",
 			"Information" : ""
 		}

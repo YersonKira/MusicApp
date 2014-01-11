@@ -1,12 +1,24 @@
 ﻿{
 	"SubTitle" : "Tonos enteros y semitonos",
-	"Information" : "",
+	"Information" : "-	En la música occidental, las notas son o bien un tono entero o un semitono de diferencia. Si miras la nota C en el teclado del piano, veras que hay una llave negra entre esta y la siguiente nota hacia arriba, la D. La distancia musical entre C y D es llamada nota completa. La distancia entre la C y la llave negra es llamada un semitono. Ahora, puede que te preguntes como se llama a la nota negra. La respuesta es, “depende”. ",
 	"NextLessonFile" : "5.3.json",
 	"PreviousLessonFile" : "5.1.json",
 	"Descriptions" : [
 		{
 			"Title" : "",
-			"Information" : ""
+			"Information" : "-	Una Buena regla en general es que si vas a subir en la escala, esa nota es la versión sostenida de la nota de comienzo. Por lo tanto, si estas moviendo de C a D con la llave negra, seria escrita usando una sostenida, como esto:"
+		},{
+
+			"Title" : "",
+			"Information" : "-	En este caso, la nota negra es escrita como C#. Cuando se mueve debajo de la escala, desde D a C y se usa la nota negra como un tono entre ellos, la llave negra es escrita como esto:0"
+		},{
+
+			"Title" : "",
+			"Information" : "-	Convenios como los hechos en la música hacen mas fácil su lectura. Si fueras a escribir estas tres notas que suben, y utilizando una D♭ en vez de una C#, la notación se vería así:"
+		},{
+
+			"Title" : "",
+			"Information" : "-	Ten en cuenta que hay un nuevo inicio – el natural. 	Cuando veas un signo natural (♮) que significa que la nota cancela cualquier sostenidos o bemoles previamente escritos. En este ejemplo, la segunda y la tercera nota son D’s: la primera D♭, así como la segunda D, desde este semitono que va desde la primera D, debe tener la nota “corregida” para mostrar la nota correcta. Mientras mas sostenidas y bemoles estén esparcidas en torno a la hoja de música, mas músico debes ser antes de reproducir la partitura. -	Muchas veces, los compositores que utilizaron previamente alteraciones en las medidas anteriores pueden poner signos naturales "innecesarios" para proporcionar claridad para el intérprete. Por ejemplo, si una medida anterior de una pieza D mayor utiliza una A #, en su lugar la próxima medida que utiliza una A puede ser anotada con una-A natural."
 		}
 	]
 }
