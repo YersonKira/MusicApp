@@ -1,12 +1,28 @@
 ﻿{
 	"SubTitle" : "Aprenda un poco de Solfeo",
-	"Information" : "",
+	"Information" : "Puede que esto suene intimidante, pero de hecho ya lo conoces: es la forma elegante de decir “do,re,mi”.",
 	"NextLessonFile" : "5.1.json",
 	"PreviousLessonFile" : "4.1.json",
 	"Descriptions" : [
 		{
 			"Title" : "",
-			"Information" : ""
+			"Information" : "Al aprender a cantar las notas que ves, comenzaras a desarrollar la habilidad de lectura rápida – una habilidad que puede tomar toda una vida perfeccionarla, pero será bastante útil desde el principio. Echemos un vistazo nuevamente a la escala C, con la escala del solfeo añadida: "
+		},{
+
+			"Title" : "",
+			"Information" : "Es probable que conozcas la canción de Rogers y Hammerstein "Do-Re-Mi" de The Sound of Music. Si puedes cantar la escala “do, re , mi” hazlo ahora mientras ves las notas. Si necesitas ponerte al tanto puedes escuchar la música en youtube."
+		},{
+
+			"Title" : "",
+			"Information" : "Aquí hay una versión un poco más avanzada, yendo hacia arriba y abajo en la escala de “Do” con las notas de solfeo:"
+		},{
+
+			"Title" : "",
+			"Information" : "Practica unas cuantas veces la segunda parte del solfeo, hasta que se convierta en algo familiar. Las primeras veces léelo muy lentamente, de manera que puedas ver cada nota que cantes. Las siguientes veces sustituye el: "do, re, mi” por “C, D, E” el objetivo es cantar las notas actuales. "
+		},{
+
+			"Title" : "",
+			"Information" : "Recuerda los valores de nuestras notas anteriores: la C alta al final de la primera línea, y la C baja al final de la segunda línea son notas medias, mientras las demás son cuartas notas. Si te imaginas a ti mismo caminando, otra vez, hay una nota para cada paso. Las notas medias valen dos pasos. "
 		}
 	]
 }

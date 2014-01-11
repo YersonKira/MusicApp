@@ -1,12 +1,24 @@
 ﻿{
-	"SubTitle" : "Aprenda la escala de Do",
-	"Information" : "",
+	"SubTitle" : "Aprendiendo la escala C",
+	"Information" : "La escala C es la escala básica que utilizamos en la música occidental. Una vez que hayas grabado bien esto en tu mente, lo demás entenderás automáticamente.",
 	"NextLessonFile" : "4.2.json",
 	"PreviousLessonFile" : "3.6.json",
 	"Descriptions" : [
 		{
 			"Title" : "",
-			"Information" : ""
+			"Information" : "En primer lugar te mostraremos como se ve, luego como hallarle sentido, para luego empezar a leer música!. Así es como esto luce el pentagrama: "
+		},{
+
+			"Title" : "",
+			"Information" : "Si le hechas un vistazo a la primera nota, la C baja, veras que está por debajo de las líneas del pentagrama. Cuando esto sucede, nosotros simplemente le añadimos una línea de pentagrama únicamente a esa nota, es decir una pequeña línea en la cabeza de la nota. Mientras más baja esta la nota, mas líneas le añadiremos. Pero por ahora no hay necesidad de preocuparse por eso. "
+		},{
+
+			"Title" : "",
+			"Information" : "La escala C se compone de ocho notas. Estas son el equivalente a las teclas blancas del piano:"
+		},{
+
+			"Title" : "",
+			"Information" : "Puede o no que tengas un piano a la mano (intenta probando un piano virtual), en este punto es importante que empieces a tener una idea de cómo luce y también de cómo se escucha."
 		}
 	]
 }
