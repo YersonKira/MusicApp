@@ -1,10 +1,18 @@
 ﻿{
 	"SubTitle" : "Sonido fuerte o suave",
-	"Information" : "",
+	"Information" : "Cuando escuchas música, probablemente te hayas dado cuenta de que no siempre tiene el mismo volumen. Algunas partes son realmente fuertes y algunas bastante suaves. Estas variaciones son conocidas como “dinámica.”",
 	"NextLessonFile" : "6.2.json",
 	"PreviousLessonFile" : "5.3.json",
 	"Descriptions" : [
 		{
+			"Title" : "",
+			"Information" : "-	Si el ritmo y el compás son el corazón de la música, y las notas y las claves son el cerebro, entonces la dinámica es sin duda el aliento de la música. Considera este ejemplo:"
+		},{
+
+			"Title" : "",
+			"Information" : "-	Toca esto fuera de tu tabla: 1 y 2 y 3 y 4 y 5 y 6 y 7 y 8, etc (el “y” es como los músicos “dicen” ocho notas). Asegúrate de que cada tonada sea tocada con el mismo volumen, de manera que sonaría como un helicóptero. Ahora echa un vistazo a esta versión:"
+		},{
+
 			"Title" : "",
 			"Information" : ""
 		}
