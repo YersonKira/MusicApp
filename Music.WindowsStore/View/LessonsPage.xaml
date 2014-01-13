@@ -7,7 +7,6 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <Page.Resources>
-        
         <CollectionViewSource x:Name="MethodsCollection" IsSourceGrouped="True" ItemsPath="Lessons" />
         <!--Lesson Template-->
         <DataTemplate x:Key="LessonTemplate">
@@ -42,7 +41,8 @@
         </ItemsPanelTemplate>
     </Page.Resources>
     
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" RequestedTheme="Light">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" RequestedTheme="Light" >
+        
         <Grid.RowDefinitions>
             <RowDefinition />
             <RowDefinition Height="5*" />

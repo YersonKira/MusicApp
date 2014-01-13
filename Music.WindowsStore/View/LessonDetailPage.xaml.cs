@@ -53,5 +53,10 @@ namespace Music.WindowsStore.View
             Lesson currentlesson = this.DataContext as Lesson;
             this.Frame.Navigate(typeof(LessonDetailPage), currentlesson.NextLessonFile);
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+                        
+        }
     }
 }

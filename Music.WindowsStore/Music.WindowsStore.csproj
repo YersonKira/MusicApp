@@ -210,6 +210,7 @@
     <Content Include="JsonFiles\7.1.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Media\video.mp4" />
     <None Include="Music.WindowsStore_TemporaryKey.pfx" />
     <None Include="packages.config" />
   </ItemGroup>

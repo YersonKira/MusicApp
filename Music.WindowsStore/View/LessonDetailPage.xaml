@@ -36,11 +36,13 @@
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="auto" />
                                     <RowDefinition Height="auto" />
+                                    <RowDefinition Height="auto" />
                                 </Grid.RowDefinitions>
                                 <TextBlock Grid.Column="1" Style="{StaticResource ContentStyle}" >
-                                <Run Text="{Binding Title}" Foreground="{StaticResource AppBarColor}" FontWeight="Bold"></Run>
-                                <Run Text="{Binding Information}" />
+                                    <Run Text="{Binding Title}" Foreground="{StaticResource AppBarColor}" FontWeight="Bold"></Run>
+                                    <Run Text="{Binding Information}" />
                                 </TextBlock>
+                                <MediaElement Grid.Row="2" Source="{Binding Animation}" Width="300" Height="200" IsLooping="True" />
                             </Grid>
                         </DataTemplate>
                     </ItemsControl.ItemTemplate>
