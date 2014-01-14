@@ -1,12 +1,28 @@
 ﻿{
 	"SubTitle" : "Toque fuerte, suave o intermedio",
-	"Information" : "",
+	"Information" : "Así como nunca hablas en el mismo nivel (modulas tu voz más fuerte o más suave, dependiendo de la situación) la música también se modula. La forma en que el compositor dice al músico lo que se intenta es usando marcas dinámicas.",
 	"NextLessonFile" : "6.3.json",
 	"PreviousLessonFile" : "6.1.json",
 	"Descriptions" : [
 		{
 			"Title" : "",
-			"Information" : ""
+			"Information" : "Hay docenas de marcas dinámicas que puedes ver en una pieza de música, pero algunas de las más comunes que encontrarás serán las letras f, m, y p. Se parecen a esto:"
+		},{
+
+			"Title" : "",
+			"Information" : "-	p   significa:  piano  o  suave."
+		},{
+
+			"Title" : "",
+			"Information" : "-	f    significa:  fuerte  o  alta."
+		},{
+
+			"Title" : "",
+			"Information" : "-	m  significa  -mezzo o  -medio. Esto modifica la dinámica después de si misma, como en   mf   o   mp, lo que significa  -medio alto  o  -suave medio."
+		},{
+
+			"Title" : "",
+			"Information" : "-	Cuantas mas f’s o p’s tengas, más suave o fuerte se tocara la música. Intenta cantar el ejemplo de arriba (utilizando solfeo – la primera nota en este ejemplo es la tónica o   do  ), y utiliza las marcas dinámicas para notar la diferencia."
 		}
 	]
 }

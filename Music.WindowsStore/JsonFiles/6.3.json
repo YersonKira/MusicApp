@@ -1,12 +1,12 @@
 ﻿{
 	"SubTitle" : "Obtener un sonido mas y mas fuerte, o mas y mas debil",
-	"Information" : "",
+	"Information" : "Otra notación dinámica muy común es el crescendo, y su corolario, el decrescendo. Son una representación visual de un cambio gradual en el volumen.",
 	"NextLessonFile" : "7.1.json",
 	"PreviousLessonFile" : "6.2.json",
 	"Descriptions" : [
 		{
 			"Title" : "",
-			"Information" : ""
+			"Information" : "Un crescendo se vuelve gradualmente más fuerte, y un decrescendo disminuye gradualmente el volumen. Se ven como esto: "
 		}
 	]
 }

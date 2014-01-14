@@ -1,12 +1,24 @@
 ﻿{
-	"SubTitle" : "Aprenda estas armaduras",
-	"Information" : "",
+	"SubTitle" : "Aprenda estas sintonías ",
+	"Information" : "Hay por lo menos uno por cada nota de la escala-y el estudiante inteligente verá que en algunos casos, hay dos claves para la misma nota. Por ejemplo, la clave de G # suena exactamente la misma manera que la clave de A ♭! Cuando toca el piano-y para los propósitos de este artículo, la diferencia es académica. Sin embargo, hay algunos compositores-sobre todo los que escriben para cuerdas-quienes sugieren que la A ♭ se toca un poco 'más aguda' que el G #. Aquí están las claves musicales para las escalas mayores:",
 	"NextLessonFile" : "",
 	"PreviousLessonFile" : "6.3.json",
 	"Descriptions" : [
 		{
 			"Title" : "",
-			"Information" : ""
+			"Information" : "La clave de C (o atonal): "
+		},{
+
+			"Title" : "",
+			"Information" : "Claves utilizando sostenidas:"
+		},{
+
+			"Title" : "",
+			"Information" : "Claves utilizando bemoles:"
+		},{
+
+			"Title" : "",
+			"Information" : "-	Puede ser un poco reconfortante saber que los compositores usualmente escriben en claves musicales que son cómodas para el intérprete de leer. D mayor es una clave muy común para instrumentos de cuerda para tocar debido a que las cuerdas están estrechamente relacionadas con la tónica, D. hay unas pocas obras que tienen cuerdas tocadas en E♭ menor, en instrumentos de viento tocados en E mayor – es tan difícil para ellos componerla como es tan difícil para ti leerla."
 		}
 	]
 }
