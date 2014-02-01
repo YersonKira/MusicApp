@@ -6,16 +6,20 @@
 	"Descriptions" : [
 		{
 			"Title" : "La cabeza",
-			"Information" : "Es una forma ovalada abierta (blanco) o cerrada (negra). En su forma mas basica, dice al artista intérprete la nota que debe tocar en su instrumento."
+			"Information" : "Es una forma ovalada abierta (blanco) o cerrada (negra). En su forma mas basica, dice al artista intérprete la nota que debe tocar en su instrumento.",
+			"Animation" : "ms-appx:///Media/lacabeza.mp4"
 		},{
 			"Title" : "La plica",
-			"Information" : "Esta es la delgada línea vertical que se une a la cabeza. Cuando la plica está apuntando hacia arriba, se une a la derecha de la cabeza. Cuando el tallo está apuntando hacia abajo, se une con la cabeza a la izquierda. La dirección del tallo no tiene ningún efecto en la nota, pero hace la notación más fácil de leer."
+			"Information" : "Esta es la delgada línea vertical que se une a la cabeza. Cuando la plica está apuntando hacia arriba, se une a la derecha de la cabeza. Cuando el tallo está apuntando hacia abajo, se une con la cabeza a la izquierda. La dirección del tallo no tiene ningún efecto en la nota, pero hace la notación más fácil de leer.",
+			"Animation" : "ms-appx:///Media/laplica.mp4"
+
 		},{
 			"Title" : "",
 			"Information" : "La regla general en la dirección de la plica es: \n\r\t Si la cabeza de la nota esta en o por encima de la línea central del pentagrama, la dirección de la plica es hacia abajo.\n\r\t si la nota está por debajo de la linea media del pentagrama, la plica apunta hacia arriba."
 		},{
 			"Title" : "El corchete",
-			"Information" : "Es el trazo curvo que se adjunta al final de la plica. No importa si la plica se une a la derecha o izquierda de la cabeza, el corchete es siempre dibujado a la derecha de la plica y nunca a la izquierda."
+			"Information" : "Es el trazo curvo que se adjunta al final de la plica. No importa si la plica se une a la derecha o izquierda de la cabeza, el corchete es siempre dibujado a la derecha de la plica y nunca a la izquierda.",
+			"Animation" : "ms-appx:///Media/elcorchete.mp4"
 		},{
 			"Title" : "",
 			"Information" : "Tomados conjunto, la cabeza, plica y el corchete o corchetes muestran al músico el valor del tiempo para cualquier nota dada, según lo medido en golpes o fracciones de pulsos. Cuando escuchas música y estás golpeando el pie al ritmo de la música, estás reconociendo ese ritmo."

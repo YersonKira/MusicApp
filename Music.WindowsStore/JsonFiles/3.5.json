@@ -1,12 +1,21 @@
 ﻿{
 	"SubTitle" : "Aprender el valor de los lazos y puntos",
-	"Information" : "",
+	"Information" : "Cuando un corchete corta el valor de una nota a la mitad, un punto tiene una funcion similar, pero opuesta. Con excepciones limitadas que no vienen al caso, el punto se coloca siempre a la derecha de la cabeza. Cuando veas una nota punteada, esa nota es aumentada en una mitad la longitud de su valor original.",
 	"NextLessonFile" : "3.6.json",
 	"PreviousLessonFile" : "3.4.json",
 	"Descriptions" : [
 		{
 			"Title" : "",
-			"Information" : ""
+			"Information" : "Por ejemplo, un punto colocado después de una nota media será igual a la nota media más un cuarto nota. Un punto colocado después de un cuarto nota será igual a un cuarto nota más una corchea."
+		},{
+			"Title" : "Los lazos",
+			"Information" : "son similares a puntos — se extiende el valor de la nota original. Un lazo es simplemente dos notas unidas por una linea curva entre las cabezas de las notas. A diferencia de los puntos que son abstractos y  basado enteramente en el valor de la nota original, los lazos son explícitos: la nota se aumenta de longitud por exactamente como el segundo valor en cuenta."
+		},{
+			"Title" : "",
+			"Information" : "Una razón por la que utilizaría un lazo frente a un punto es, por ejemplo, cuando la duración de una nota no encajaría musicalmente en el espacio de una medida. En ese caso, usted simplemente añade la duración restante en la siguiente medida como una nota y las ata juntas."
+		},{
+			"Title" : "",
+			"Information" : "Tenga en cuenta que el lazo se extrae de la primera cabeza de nota a la segunda cabeza de nota, generalmente en la dirección opuesta como la plica."
 		}
 	]
 }

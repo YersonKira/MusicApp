@@ -7,7 +7,7 @@
 		{
 			"Title" : "",
 			"Information" : "El Pentagrama es un arreglo de cinco líneas paralelas y los espacios entre ellas. Tanto las líneas y los espacios están numerados para fines de referencia y se cuentan siempre de abajo hacia arriba.",
-			"Animation" : "ms-appx:///Media/video.mp4"
+			"Animation" : "ms-appx:///Media/pentagrama.mp4"
 		}
 	]
 }

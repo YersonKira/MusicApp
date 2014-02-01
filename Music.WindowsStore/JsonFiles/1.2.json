@@ -6,16 +6,17 @@
 	"Descriptions" : [
 		{
 			"Title" : "",
-			"Information" : "Los agudos, o clave de sol, se deriva de una letra latina ornamental G. Cuando se añaden notas al pentagrama en clave de sol, tendrán los siguientes valores:"
+			"Information" : "Los agudos, o clave de sol. Cuando se añaden notas al pentagrama en clave de sol, tendrán los siguientes valores:",
+			"Animation" : "ms-appx:///Media/clavedesol.mp4"
 		},{
 			"Title" : "",
-			"Information" : "Las cinco líneas, desde abajo hacia arriba, representan las siguientes notas: E G B D F"
+			"Information" : "Las cinco líneas, desde abajo hacia arriba, representan las siguientes notas: Mi Sol Si Re Fa"
 		},{
 			"Title" : "",
-			"Information" : "Los cuatro espacios, desde abajo hacia arriba, representan estas notas: F A C E"
+			"Information" : "Los cuatro espacios, desde abajo hacia arriba, representan estas notas: Fa La Do Mi"
 		},{
 			"Title" : "",
-			"Information" : "Puede parecer mucho para recordar, pero si usas mnemónicos — o señales de la palabra — que puede ayudarle a recordarlos. Para las líneas, \"Every Good Boy Does Fine\" es el estándar, y para los espacios, pues saben escribir \"FACE\" (cara en ingles). Debería ser bastante fácil!"
+			"Information" : "Puede parecer mucho para recordar, pero si usas mnemónicos — o señales de la palabra — que puede ayudarle a recordarlos. Para las líneas, \"Mi Sol Siempre Reluce Fastuoso\" es el estándar, y para los espacios, pues saben escribir \"Fabricando La Dorada Miel\". Debería ser bastante fácil!"
 		}
 	]
 }

@@ -210,7 +210,11 @@
     <Content Include="JsonFiles\7.1.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Media\video.mp4" />
+    <Content Include="Media\clavedesol.mp4" />
+    <Content Include="Media\elcorchete.mp4" />
+    <Content Include="Media\lacabeza.mp4" />
+    <Content Include="Media\laplica.mp4" />
+    <Content Include="Media\pentagrama.mp4" />
     <None Include="Music.WindowsStore_TemporaryKey.pfx" />
     <None Include="packages.config" />
   </ItemGroup>
