@@ -6,7 +6,10 @@
 	"Descriptions" : [
 		{
 			"Title" : "",
-			"Information" : "Un crescendo se vuelve gradualmente más fuerte, y un decrescendo disminuye gradualmente el volumen. Se ven como esto: "
+			"Information" : "Un crescendo se vuelve gradualmente más fuerte, y un decrescendo disminuye gradualmente el volumen. Se ven como esto: ",
+			"Image" : "ms-appx:///Media/Images/expression1.png"
+		},{
+			"Image" : "ms-appx:///Media/Images/expression2.png"
 		}
 	]
 }

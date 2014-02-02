@@ -11,5 +11,6 @@ namespace Music.WindowsStore.Model
         public string Title { get; set; }
         public string Information { get; set; }
         public string Animation { get; set; }
+        public string Image { get; set; }
     }
 }

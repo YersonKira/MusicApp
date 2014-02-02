@@ -43,7 +43,7 @@
                                     <Run Text="{Binding Information}" />
                                 </TextBlock>
                                 <MediaElement Grid.Row="2" Source="{Binding Animation}" Margin="20, 0" IsLooping="True" />
-                                <Image Grid.Row="2" Margin="20, 0" />
+                                <Image Grid.Row="2" Source="{Binding Image}" Margin="100, 0" />
                             </Grid>
                         </DataTemplate>
                     </ItemsControl.ItemTemplate>

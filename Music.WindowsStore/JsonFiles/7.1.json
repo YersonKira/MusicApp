@@ -12,11 +12,34 @@
 			"Title" : "",
 			"Information" : "Claves utilizando sostenidas:"
 		},{
-
-			"Title" : "",
-			"Information" : "Claves utilizando bemoles:"
+			"Image" : "ms-appx:///Media/Images/thekeyofD.png"	
 		},{
-
+			"Image" : "ms-appx:///Media/Images/thekeyofA.png"	
+		},{
+			"Image" : "ms-appx:///Media/Images/thekeyofE.png"	
+		},{
+			"Image" : "ms-appx:///Media/Images/thekeyofB.png"	
+		},{
+			"Image" : "ms-appx:///Media/Images/thekeyofF#.png"	
+		},{
+			"Image" : "ms-appx:///Media/Images/thekeyofC#.png"	
+		},{
+			"Title" : "",
+			"Information" : "Claves utilizando bemoles:",
+			"Image" : "ms-appx:///Media/Images/thekeyofF.png"	
+		},{
+			"Image" : "ms-appx:///Media/Images/thekeyofBb.png"	
+		},{
+			"Image" : "ms-appx:///Media/Images/thekeyofEb.png"	
+		},{
+			"Image" : "ms-appx:///Media/Images/thekeyofAb.png"	
+		},{
+			"Image" : "ms-appx:///Media/Images/thekeyofDb.png"	
+		},{
+			"Image" : "ms-appx:///Media/Images/thekeyofGb.png"	
+		},{
+			"Image" : "ms-appx:///Media/Images/thekeyofCb.png"	
+		},{
 			"Title" : "",
 			"Information" : "-	Puede ser un poco reconfortante saber que los compositores usualmente escriben en claves musicales que son cómodas para el intérprete de leer. D mayor es una clave muy común para instrumentos de cuerda para tocar debido a que las cuerdas están estrechamente relacionadas con la tónica, D. hay unas pocas obras que tienen cuerdas tocadas en E♭ menor, en instrumentos de viento tocados en E mayor – es tan difícil para ellos componerla como es tan difícil para ti leerla."
 		}

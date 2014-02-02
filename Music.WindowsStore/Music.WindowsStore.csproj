@@ -134,12 +134,11 @@
     <Content Include="Assets\StoreIcon.scale-180.png" />
     <Content Include="Assets\WidthIcon.scale-180.png" />
     <Content Include="Images\1.jpg" />
-    <Content Include="Images\2.png" />
     <Content Include="Images\3.png" />
     <Content Include="Images\4.jpg" />
-    <Content Include="Images\5.png" />
     <Content Include="Images\6.png" />
     <Content Include="Images\7.png" />
+    <Content Include="Images\2.png" />
     <Content Include="Images\icons\Dark\appbar.arrow.left.png" />
     <Content Include="Images\icons\Dark\appbar.navigate.next.png" />
     <Content Include="Images\icons\Dark\appbar.navigate.previous.png" />
@@ -147,6 +146,7 @@
     <Content Include="Images\icons\Ligth\appbar.navigate.next.png" />
     <Content Include="Images\icons\Ligth\appbar.navigate.previous.png" />
     <Content Include="Images\image.png" />
+    <Content Include="Images\5.png" />
     <Content Include="JsonFiles\methods.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -212,6 +212,21 @@
     </Content>
     <Content Include="Media\clavedesol.mp4" />
     <Content Include="Media\elcorchete.mp4" />
+    <Content Include="Media\Images\expression1.png" />
+    <Content Include="Media\Images\expression2.png" />
+    <Content Include="Media\Images\thekeyofA.png" />
+    <Content Include="Media\Images\thekeyofAb.png" />
+    <Content Include="Media\Images\thekeyofB.png" />
+    <Content Include="Media\Images\thekeyofBb.png" />
+    <Content Include="Media\Images\thekeyofC#.png" />
+    <Content Include="Media\Images\thekeyofCb.png" />
+    <Content Include="Media\Images\thekeyofD.png" />
+    <Content Include="Media\Images\thekeyofDb.png" />
+    <Content Include="Media\Images\thekeyofE.png" />
+    <Content Include="Media\Images\thekeyofEb.png" />
+    <Content Include="Media\Images\thekeyofF#.png" />
+    <Content Include="Media\Images\thekeyofF.png" />
+    <Content Include="Media\Images\thekeyofGb.png" />
     <Content Include="Media\lacabeza.mp4" />
     <Content Include="Media\laplica.mp4" />
     <Content Include="Media\pentagrama.mp4" />
