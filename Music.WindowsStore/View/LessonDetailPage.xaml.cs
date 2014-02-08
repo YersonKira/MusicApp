@@ -39,7 +39,7 @@ namespace Music.WindowsStore.View
 
         private void AppBarButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(HomePage));
+            this.Frame.Navigate(typeof(LessonsPage));
         }
 
         private void PreviousLesson(object sender, RoutedEventArgs e)

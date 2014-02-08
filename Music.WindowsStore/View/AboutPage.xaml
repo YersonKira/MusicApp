@@ -1,0 +1,24 @@
+﻿<SettingsFlyout
+    x:Class="Music.WindowsStore.View.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Music.WindowsStore.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    IconSource="Assets/SmallLogo.png"
+    Title="Acerca de"
+    d:DesignWidth="346">
+
+    <!-- Este StackPanel actúa como panel raíz para la distribución vertical de las secciones de contenido -->
+    <StackPanel VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
+        <StackPanel Style="{StaticResource SettingsFlyoutSectionStyle}">
+            <TextBlock Style="{StaticResource TitleTextBlockStyle}" Text="Música" FontSize="25" />
+            <TextBlock Style="{StaticResource BodyTextBlockStyle}" Margin="0,0,0,25" TextWrapping="Wrap">
+                El contenido de todas las lecciones fueron extraidas de 
+                <Hyperlink NavigateUri="http://www.wikihow.com/Read-Music" Foreground="#FF007ACC">How to Read Music</Hyperlink>
+                y traducido por Edwin Moldez y Yerson Copa.
+            </TextBlock>
+        </StackPanel>
+    </StackPanel>
+</SettingsFlyout>

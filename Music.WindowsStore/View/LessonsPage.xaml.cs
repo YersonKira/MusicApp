@@ -38,10 +38,5 @@ namespace Music.WindowsStore.View
             Lesson selectedLesson = (Lesson)LessonsList.SelectedItem;
             this.Frame.Navigate(typeof(LessonDetailPage), selectedLesson.File_Name);
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(HomePage));
-        }
     }
 }

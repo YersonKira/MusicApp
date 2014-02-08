@@ -110,11 +110,8 @@
     <Compile Include="Model\Lesson.cs" />
     <Compile Include="Model\Method.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="View\EditorPage.xaml.cs">
-      <DependentUpon>EditorPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\HomePage.xaml.cs">
-      <DependentUpon>HomePage.xaml</DependentUpon>
+    <Compile Include="View\AboutPage.xaml.cs">
+      <DependentUpon>AboutPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\LessonDetailPage.xaml.cs">
       <DependentUpon>LessonDetailPage.xaml</DependentUpon>
@@ -230,6 +227,7 @@
     <Content Include="Media\lacabeza.mp4" />
     <Content Include="Media\laplica.mp4" />
     <Content Include="Media\pentagrama.mp4" />
+    <Content Include="Media\time.mp4" />
     <None Include="Music.WindowsStore_TemporaryKey.pfx" />
     <None Include="packages.config" />
   </ItemGroup>
@@ -238,11 +236,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="View\EditorPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="View\HomePage.xaml">
+    <Page Include="View\AboutPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

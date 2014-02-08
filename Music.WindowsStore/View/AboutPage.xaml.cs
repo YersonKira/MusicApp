@@ -13,18 +13,16 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// La plantilla de elemento Página en blanco está documentada en http://go.microsoft.com/fwlink/?LinkId=234238
+// La plantilla de elemento Control flotante de configuración está documentada en http://go.microsoft.com/fwlink/?LinkId=273769
 
 namespace Music.WindowsStore.View
 {
-    /// <summary>
-    /// Página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
-    /// </summary>
-    public sealed partial class EditorPage : Page
+    public sealed partial class AboutPage : SettingsFlyout
     {
-        public EditorPage()
+        public AboutPage()
         {
             this.InitializeComponent();
         }
+
     }
 }

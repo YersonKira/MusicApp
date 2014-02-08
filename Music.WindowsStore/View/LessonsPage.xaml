@@ -54,10 +54,7 @@
         
         <Border Grid.ColumnSpan="2" Background="{StaticResource HeaderColor}" />
         <ProgressRing x:Name="progress" Foreground="{StaticResource AppBarColor}" Grid.Row="1" Grid.ColumnSpan="2" Width="150"  Height="150" />
-        <Button VerticalAlignment="Center" HorizontalAlignment="Center" 
-                Style="{StaticResource NavigationBackButtonNormalStyle}" 
-                Click="Button_Click"/>
-        <TextBlock Style="{StaticResource HeaderStyle}" Text="Lecciones" Grid.Column="1" />
+        <TextBlock Style="{StaticResource HeaderStyle}" Text="Como Leer Música" Grid.Column="1" />
         <SemanticZoom Grid.Row="1" Grid.ColumnSpan="2" IsZoomedInViewActive="False" Margin="40">
             <!--Zoom Out-->
             <SemanticZoom.ZoomedOutView>

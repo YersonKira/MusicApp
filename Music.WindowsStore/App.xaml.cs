@@ -8,6 +8,7 @@ using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.ApplicationSettings;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -77,7 +78,7 @@ namespace Music.WindowsStore
                 // Cuando no se restaura la pila de navegación para navegar a la primera página,
                 // configurar la nueva página al pasar la información requerida como parámetro
                 // parámetro
-                rootFrame.Navigate(typeof(HomePage), e.Arguments);
+                rootFrame.Navigate(typeof(LessonsPage), e.Arguments);
             }
             // Asegurarse de que la ventana actual está activa.
             Window.Current.Activate();
@@ -105,6 +106,20 @@ namespace Music.WindowsStore
             var deferral = e.SuspendingOperation.GetDeferral();
             //TODO: Guardar el estado de la aplicación y detener toda actividad en segundo plano
             deferral.Complete();
+        }
+        protected override void OnWindowCreated(WindowCreatedEventArgs args)
+        {
+            SettingsPane.GetForCurrentView().CommandsRequested += App_CommandsRequested;
+            base.OnWindowCreated(args);
+        }
+
+        void App_CommandsRequested(SettingsPane sender, SettingsPaneCommandsRequestedEventArgs args)
+        {
+            SettingsCommand aboutCommand = new SettingsCommand("about", "Acerca de ...", handler => {
+                AboutPage aboutpage = new AboutPage();
+                aboutpage.Show();
+            });
+            args.Request.ApplicationCommands.Add(aboutCommand);
         }
     }
 }

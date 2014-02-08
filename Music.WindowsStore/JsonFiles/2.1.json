@@ -6,7 +6,8 @@
 	"Descriptions" : [
 		{
 			"Title" : "",
-			"Information" : "En notación musical, ritmo es expresado por algo parecido a una fracción. Como cualquier fracción, hay un numerador y un denominador. El numerador, escrito en los parte superiores dos espacios del pentagrama, te dice cuántos latidos en una medida. El denominador indica el valor de la nota que recibe un golpe (un pulso). Se parece a esto:"
+			"Information" : "En notación musical, ritmo es expresado por algo parecido a una fracción. Como cualquier fracción, hay un numerador y un denominador. El numerador, escrito en los parte superiores dos espacios del pentagrama, te dice cuántos latidos en una medida. El denominador indica el valor de la nota que recibe un golpe (un pulso). Se parece a esto:",
+			"Animation" : "ms-appx:///Media/time.mp4"
 		},{
 			"Title" : "",
 			"Information" : "Cambiando el numerador, cambiamos el número de pulsaciones en una medida. Otro compás muy común es 3/4. Si piensas en un vals y su constante ritmica es 1-2-3-1-2-3, que es de 3/4. Es algo como esto:"

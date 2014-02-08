@@ -9,20 +9,20 @@
 			"Information" : "Hay docenas de marcas dinámicas que puedes ver en una pieza de música, pero algunas de las más comunes que encontrarás serán las letras f, m, y p. Se parecen a esto:"
 		},{
 
-			"Title" : "",
-			"Information" : "-	p   significa:  piano  o  suave."
+			"Title" : "p",
+			"Information" : "significa:  piano  o  suave."
+		},{
+
+			"Title" : "f",
+			"Information" : "significa:  fuerte  o  alta."
+		},{
+
+			"Title" : "m",
+			"Information" : "significa  -mezzo o  -medio. Esto modifica la dinámica después de si misma, como en   mf   o   mp, lo que significa  -medio alto  o  -suave medio."
 		},{
 
 			"Title" : "",
-			"Information" : "-	f    significa:  fuerte  o  alta."
-		},{
-
-			"Title" : "",
-			"Information" : "-	m  significa  -mezzo o  -medio. Esto modifica la dinámica después de si misma, como en   mf   o   mp, lo que significa  -medio alto  o  -suave medio."
-		},{
-
-			"Title" : "",
-			"Information" : "-	Cuantas mas f’s o p’s tengas, más suave o fuerte se tocara la música. Intenta cantar el ejemplo de arriba (utilizando solfeo – la primera nota en este ejemplo es la tónica o   do  ), y utiliza las marcas dinámicas para notar la diferencia."
+			"Information" : "Cuantas mas f’s o p’s tengas, más suave o fuerte se tocara la música. Intenta cantar el ejemplo de arriba (utilizando solfeo – la primera nota en este ejemplo es la tónica o   do  ), y utiliza las marcas dinámicas para notar la diferencia."
 		}
 	]
 }
