@@ -5,8 +5,7 @@
 	"PreviousLessonFile" : "2.1.json",
 	"Descriptions" : [
 		{
-			"Title" : "",
-			"Information" : ""
+			"Image" : "ms-appx:///Media/Images/QuarterNotes.png"	
 		}
 	]
 }

@@ -6,11 +6,13 @@
 	"Descriptions" : [
 		{
 			"Title" : "",
-			"Information" : "-	Si el ritmo y el compás son el corazón de la música, y las notas y las claves son el cerebro, entonces la dinámica es sin duda el aliento de la música. Considera este ejemplo:"
+			"Information" : "-	Si el ritmo y el compás son el corazón de la música, y las notas y las claves son el cerebro, entonces la dinámica es sin duda el aliento de la música. Considera este ejemplo:",
+			"Image" : "ms-appx:///Media/Images/DynamicsNoAccent.png"	
 		},{
 
 			"Title" : "",
-			"Information" : "-	Toca esto fuera de tu tabla: 1 y 2 y 3 y 4 y 5 y 6 y 7 y 8, etc (el “y” es como los músicos “dicen” ocho notas). Asegúrate de que cada tonada sea tocada con el mismo volumen, de manera que sonaría como un helicóptero. Ahora echa un vistazo a esta versión:"
+			"Information" : "-	Toca esto fuera de tu tabla: 1 y 2 y 3 y 4 y 5 y 6 y 7 y 8, etc (el “y” es como los músicos “dicen” ocho notas). Asegúrate de que cada tonada sea tocada con el mismo volumen, de manera que sonaría como un helicóptero. Ahora echa un vistazo a esta versión:",
+			"Image" : "ms-appx:///Media/Images/DynamicsWithAccent.png"	
 		},{
 
 			"Title" : "",

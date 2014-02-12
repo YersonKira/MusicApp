@@ -6,7 +6,8 @@
 	"Descriptions" : [
 		{
 			"Title" : "",
-			"Information" : "-	Una Buena regla en general es que si vas a subir en la escala, esa nota es la versión sostenida de la nota de comienzo. Por lo tanto, si estas moviendo de C a D con la llave negra, seria escrita usando una sostenida, como esto:"
+			"Information" : "-	Una Buena regla en general es que si vas a subir en la escala, esa nota es la versión sostenida de la nota de comienzo. Por lo tanto, si estas moviendo de C a D con la llave negra, seria escrita usando una sostenida, como esto:",
+			"Image" : "ms-appx:///Media/Images/sharps flats and naturals CtoD.png"	
 		},{
 
 			"Title" : "",
@@ -14,7 +15,8 @@
 		},{
 
 			"Title" : "",
-			"Information" : "-	Convenios como los hechos en la música hacen mas fácil su lectura. Si fueras a escribir estas tres notas que suben, y utilizando una D♭ en vez de una C#, la notación se vería así:"
+			"Information" : "-	Convenios como los hechos en la música hacen mas fácil su lectura. Si fueras a escribir estas tres notas que suben, y utilizando una D♭ en vez de una C#, la notación se vería así:",
+			"Image" : "ms-appx:///Media/Images/sharps flats and naturals CtoD v2.png"	
 		},{
 
 			"Title" : "",

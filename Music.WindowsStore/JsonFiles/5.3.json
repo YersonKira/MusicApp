@@ -10,15 +10,18 @@
 		},{
 
 			"Title" : "",
-			"Information" : "Ten en cuenta que en la mayoría de las notas, hay todo un paso. Pero hay solamente un medio paso (semitono) entre E y F, y entre B y C. cada escala mayor tiene esta misma relación: todo-todo-media-todo-todo-todo-media. Si comienzas tu escala en G, por ejemplo, podría escribirse de esta forma:"
+			"Information" : "Ten en cuenta que en la mayoría de las notas, hay todo un paso. Pero hay solamente un medio paso (semitono) entre E y F, y entre B y C. cada escala mayor tiene esta misma relación: todo-todo-media-todo-todo-todo-media. Si comienzas tu escala en G, por ejemplo, podría escribirse de esta forma:",
+			"Image" : "ms-appx:///Media/Images/keyOfGNoKeySignature.png"	
 		},{
 
 			"Title" : "",
-			"Information" : "Toma en cuenta que la F# cerca de la parte superior. A fin de mantener la relación adecuada, la F tiene que ser elevada un semitono por lo que es un medio paso desde la G, no un paso completo. Eso es bastante fácil como para leerlo, pero que si empiezas de una escala mayor en C#? Se vería de esta forma:"
+			"Information" : "Toma en cuenta que la F# cerca de la parte superior. A fin de mantener la relación adecuada, la F tiene que ser elevada un semitono por lo que es un medio paso desde la G, no un paso completo. Eso es bastante fácil como para leerlo, pero que si empiezas de una escala mayor en C#? Se vería de esta forma:",
+			"Image" : "ms-appx:///Media/Images/keyOfCNoKeySignature.png"	
 		},{
 
 			"Title" : "",
-			"Information" : "Ahora empieza a complicarse!. Con el fin de reducir la confusión y hacer música más fácil de leer, se crearon las firmas dominantes. Cada escala mayor tiene un conjunto particular de sostenidas o bemoles, y las que se muestran en el comienzo mismo de la música. Revisando nuevamente la clave de G, nos damos cuenta que tiene una F# sostenida. en lugar de poner la siguiente sostenida a la F en el pentagrama, lo movemos todo a la izquierda, y es asumida a ese punto en cada F que se toca como una F#. se ve de esta forma:"
+			"Information" : "Ahora empieza a complicarse!. Con el fin de reducir la confusión y hacer música más fácil de leer, se crearon las firmas dominantes. Cada escala mayor tiene un conjunto particular de sostenidas o bemoles, y las que se muestran en el comienzo mismo de la música. Revisando nuevamente la clave de G, nos damos cuenta que tiene una F# sostenida. en lugar de poner la siguiente sostenida a la F en el pentagrama, lo movemos todo a la izquierda, y es asumida a ese punto en cada F que se toca como una F#. se ve de esta forma:",
+			"Image" : "ms-appx:///Media/Images/keyofg.png"	
 		},{
 
 			"Title" : "",

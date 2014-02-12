@@ -209,8 +209,18 @@
     </Content>
     <Content Include="Media\clavedesol.mp4" />
     <Content Include="Media\elcorchete.mp4" />
+    <Content Include="Media\Images\DynamicsNoAccent.png" />
+    <Content Include="Media\Images\DynamicsWithAccent.png" />
     <Content Include="Media\Images\expression1.png" />
     <Content Include="Media\Images\expression2.png" />
+    <Content Include="Media\Images\HalfNotes.png" />
+    <Content Include="Media\Images\keyOfCNoKeySignature.png" />
+    <Content Include="Media\Images\keyofC.png" />
+    <Content Include="Media\Images\keyOfGNoKeySignature.png" />
+    <Content Include="Media\Images\keyofg.png" />
+    <Content Include="Media\Images\QuarterNotes.png" />
+    <Content Include="Media\Images\sharps flats and naturals CtoD v2.png" />
+    <Content Include="Media\Images\sharps flats and naturals CtoD.png" />
     <Content Include="Media\Images\thekeyofA.png" />
     <Content Include="Media\Images\thekeyofAb.png" />
     <Content Include="Media\Images\thekeyofB.png" />

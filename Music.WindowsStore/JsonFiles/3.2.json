@@ -9,7 +9,8 @@
 			"Information" : "Cada paso es un nota negra. Puedes contar al caminar: \"1, 2, 3, 4-1, 2, 3, 4\""
 		},{
 			"Title" : "",
-			"Information" : "Si fueras a desacelerar su ritmo a la mitad de la velocidad, así que sólo tomarian un paso cada dos golpes sobre el 1 y el 3."
+			"Information" : "Si fueras a desacelerar su ritmo a la mitad de la velocidad, así que sólo tomarian un paso cada dos golpes sobre el 1 y el 3.",
+			"Image" : "ms-appx:///Media/Images/HalfNotes.png"	
 		},{
 			"Title" : "",
 			"Information" : "Si usted a ralentizado su ritmo aún más, así que sólo tomaron un paso cada cuatro golpes, en el 1, que escribiría como una nota entera — o una nota por la medida."

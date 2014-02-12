@@ -6,7 +6,8 @@
 	"Descriptions" : [
 		{
 			"Title" : "",
-			"Information" : "La clave de C (o atonal): "
+			"Information" : "La clave de C (o atonal): ",
+			"Image" : "ms-appx:///Media/Images/keyofC.png"	
 		},{
 
 			"Title" : "",

@@ -31,8 +31,6 @@
         <!--Lessons Panel Template-->
         <ItemsPanelTemplate x:Key="LessonsPanel">
             <StackPanel Orientation="Horizontal" />
-            <!--<ItemsWrapGrid MaximumRowsOrColumns="3" />-->
-            <!--<WrapGrid Orientation="Vertical" />-->
         </ItemsPanelTemplate>
         <!--Methods Panel Template-->
         <ItemsPanelTemplate x:Key="MethodsPanel">
